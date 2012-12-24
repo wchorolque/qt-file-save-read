@@ -4,9 +4,7 @@
 #
 #-------------------------------------------------
 
-QT       += core
-
-QT       -= gui
+QT       += core gui
 
 TARGET = QFileExample
 CONFIG   += console
@@ -16,3 +14,5 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp
+
+TRANSLATIONS += i18n_es.ts
